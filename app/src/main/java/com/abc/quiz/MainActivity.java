@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         Button tButton = findViewById(R.id.tButton);
         Button fButton = findViewById(R.id.fButton);
         TextView textView4 = findViewById(R.id.textView4);
+        Button rButton = findViewById(R.id.rButton);
 
         textView.setText(questions[index]);
 
@@ -107,6 +108,18 @@ public class MainActivity extends AppCompatActivity {
                         textView4.setText("You have achieved "+score+" Score out of "+questions.length+" Questions.");
                     }
                 }
+            }
+        });
+
+        rButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                // Main Logic
+                index = 0;
+                score = 0;
+                textView4.setText("");
+                textView.setText(questions[index]);
             }
         });
 
