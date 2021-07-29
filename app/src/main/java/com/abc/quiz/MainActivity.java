@@ -39,11 +39,33 @@ public class MainActivity extends AppCompatActivity {
       "Q27. The Fax machine was patented in 1943.",
       "Q28. The oldest living organism on earth is a Galapagos Tortoise named Harriet.",
       "Q29. The Darker the Coffee Roast, the less caffeine it contains.",
-      "Q30. The first game of Baseball was played with a dried and stitched head of a Wombat, Rather than a ball."};
+      "Q30. The first game of Baseball was played with a dried and stitched head of a Wombat, Rather than a ball.",
+      "Q31. Australia is the largest producer of wool in the world.",
+      "Q32. Zeus is known as the king of Gods.",
+      "Q33. Bats always turn left when they are exiting the caves.",
+      "Q34. A Slug has 3000 teeth and four noses in total.",
+      "Q35. Honeybees are the fastest flying insect.",
+      "Q36. Eczema is not a skin disease.",
+      "Q37. Australia is both a country and a continent.",
+      "Q38. The highest number of shopping malls can be found in New Jersey.",
+      "Q39. There is no railway system in Iceland.",
+      "Q40. The femur bone is the longest and strongest bone in the body.",
+      "Q41. Archimedes is considered as the father of History.",
+      "Q42. A group of crows is called a ‘Murder’.",
+      "Q43. Robert Brown discovered the cell nucleus.",
+      "Q44. Stapes is the smallest bone in the human body.",
+      "Q45. Vatican City is the largest city in the world.",
+      "Q46. Baby panda is bigger than a mouse after being born.",
+      "Q47. Pneumonia is a kind of infection that affects the lungs.",
+      "Q48. Penguins are considered to be flightless birds.",
+      "Q49. The smallest particle of an element is the molecule.",
+      "Q50. On August 6, 1945, the United States dropped an atomic bomb on Hiroshima."};
 
     public boolean [] answers = {true, false, true, false, true, true, true, false, true,
                                  false, true, false, false, true, true, false, false, false, true,
-                                 true, true, true ,false, true, true, true, false, false, true, false};
+                                 true, true, true ,false, true, true, true, false, false, true,
+                                 false, true, true, false, true, false, false, true, true, true,
+                                 true, false, true, true, true, false, false, true, true, false, true};
 
     public int score = 0;
     public int index = 0;
